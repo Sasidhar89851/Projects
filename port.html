@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+           background-color: rgb(0,0,33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(11, 11, 51);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(152, 152, 228);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+        .folio{
+            color: red;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            width: 80%;
+            border-radius: 5px;
+
+        }
+
+        .purple {
+            color: rgb(175, 126, 220);
+        }
+
+        .text-gray {
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        #element {
+            color: rgb(175, 126, 220);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 0.5px;
+            background-color: white;
+            margin: 0 150px;
+        }
+
+        .image-top {
+            width: 50px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 50px;
+            width: 150px;
+            font-size: 20px;
+        }
+
+        .vertical-disc {
+            position: relative;
+            top: 80px;
+            color: gray;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+            height: 233px;
+            display: flex;
+            margin: 20px;
+            font-size: 1.5rem;
+        }
+
+        .footer{
+            padding: 23px 122px;
+
+        }
+
+        .footer-second {
+            margin: 10px;
+            font-size: 20px;
+        }
+
+        .footer-second p {
+            font-size: 15px;
+            color: gray;
+            margin: 10px;
+        }
+
+        .footer-third {
+            font-size: 20px;
+            margin: 40px;
+            align-items: end;
+        }
+
+        .footer-third p {
+            font-size: 15px;
+            color: gray;
+            margin: 1px;
+        }
+        .contact{
+    background-color: black;
+}
+.contact h2{
+    color: white;
+    font-size: 2rem;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.sasi{
+    color: lavender;
+    font-size: 25px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Sasi's Port<span class="folio">Folio</span>
+            </div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact </a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,My name is <span class="purple"> Sasi</span>
+
+                <div>and I am a </div>
+
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="pic1.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondsection">
+            <span class="text-gray">My Skills are</span>
+           
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="f-development.png" alt="">
+                    <div class="vertical-title">
+                        Frontend Developer
+                    </div>
+                    <div class="vertical-disc">
+                        HyperText Markup Language (HTML),
+                        Cascading Style Sheets (CSS),
+                        JavaScript,
+                        React,
+                        Angular.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="back-development.png" alt="">
+                    <div class="vertical-title">
+                        Backend Developer
+                    </div>
+                    <div class="vertical-disc">
+                        Python,
+                        PHP,
+                        JavaScript,
+                        Ruby,
+                        Java.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="web-developer.png" alt="">
+                    <div class="vertical-title">
+                        Web Developer
+                    </div>
+                    <div class="vertical-disc">
+                        JavaScript,
+                        HTML5,
+                        CSS3,
+                        PHP,
+                        Java.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="python.jpg" alt="">
+                    <div class="vertical-title">
+                        Python
+                    </div>
+
+
+                </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer"></div>
+        <div class="footer-first">
+            <h3>Projects </h3>
+        </div>
+
+
+
+        <div class="footer-second"><br>
+            <h4>Practical Projects :</h4>
+            <p>Login Website</p>
+            <p>registation Website</p>
+            <p>Home Website</p>
+
+        </div>
+
+        </div>
+        <div class="footer-third">
+            <h4>Theoretical Projects :</h4><br>
+            <p>Image Proccessing Techinique For Braille Writing Recognition(2022)</p>
+
+
+        </div>
+        <div class="footer-fourth">
+
+        </div>
+    </footer>
+
+</div>
+<div class="contact">
+    <h2>Contact</h2>
+    <div>
+        <p class="sasi">
+            Name:Sasidhar<br><br>
+            Address:Pakala Vari Street,Repalle,Bpt Dist,<br><br>
+            Phone no: 8985138325,<br><br>
+            email ID: sasidevanaboyina2705@gmail.com
+</p>
+        
+    </div>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: [ '<i>Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
