@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgb(136, 140, 236),rgb(116, 89, 186),rgb(16, 16, 217));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_form{
+    box-shadow: 10px 10px 10px 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    color:white;
+    padding: 20px;
+}
+#register h1{
+    text-align: center;
+    margin: 10px;
+}
+.input_ele input{
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 5px;
+    border-style: none;
+}
+.context{
+    display: flex;
+    margin: 10px 50px 10px 20px ;
+}
+.context p{
+    margin: 5px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}.register_btn button{
+    padding: 10px ;
+    margin: 5px 10px;
+    border-radius: 5px;
+    font-style: none;
+    font-weight: bold;
+    background-color: green;
+}
+
+.register_btn button:hover{
+    background-color: rgb(153, 234, 153);
+    text-align: right;
+}
