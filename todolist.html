@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    
+    <style>
+        body{
+            border: 2px solid blue;
+            background-image: linear-gradient(to left,rgb(249, 249, 122),rgb(240, 201, 127),rgb(253, 209, 129));
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            height: 500px;
+            width: 500px;
+            margin: auto;
+        }
+        .todocontainer{
+            background-color: lightskyblue;
+            margin: 30px;
+            border: 2px solid red;
+            width: 50%;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 10px 10px 10px;
+            color: white;
+        }
+        .errormsg{
+            color: red;
+            font-size: 20px;
+        }
+        .listele{
+            display: flex;
+           
+            align-items: center;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="todocontainer">
+
+        <span id="errormsg"></span>
+        <h1>To Do Tasks</h1>
+        <div class="usertaskcontainer">
+            <input type="text" placeholder="Enter the Task" id="usertask">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+
+        <div class="listitemcontainer">
+            <ul id="listItems">
+
+                <div class="listcontainer">
+                    <li>Html</li>
+                    <button onclick=""></button>
+
+                </div>
+            
+               
+            </ul>
+            
+        </div>
+    </div>
+    <script src="todolist.js"></script>
+</body>
+</html>
