@@ -1,0 +1,5 @@
+This project uses MATLAB, a programming tool, to recognize Braille writing. Braille is a tactile writing system for the visually impaired. 
+Image processing techniques are employed to convert images of Braille characters into readable text.
+The goal is to help blind individuals read text written in Braille more easily. 
+Students will learn how to apply digital image processing algorithms to analyze and interpret Braille dots, ultimately making Braille text accessible to the visually impaired. 
+It's a meaningful project that combines technology and empathy for those with visual disabilities.
